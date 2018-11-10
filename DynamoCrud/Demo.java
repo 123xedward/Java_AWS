@@ -61,7 +61,6 @@ public class Demo {
 		} catch (Exception e) {
 			System.err.println("Create items failed.");
 			System.err.println(e.getMessage());
-
 		}
 	}
 
