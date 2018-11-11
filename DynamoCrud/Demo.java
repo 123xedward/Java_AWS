@@ -126,7 +126,6 @@ public class Demo {
 		} catch (Exception e) {
 			System.err.println("Failed to update multiple attributes in " + tableName);
 			System.err.println(e.getMessage());
-
 		}
 	}
 
