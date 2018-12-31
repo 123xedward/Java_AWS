@@ -65,7 +65,7 @@ public class InfectionsDataUploader {
       if (infectionsDataObject == null) {
         System.out.println("Unable to retrieve infections data file");
         return;
-      }
+      } 
 
       // Retrieve the Table object for the infections table
       Table table = dynamoDB.getTable(INFECTIONS_TABLE_NAME);
